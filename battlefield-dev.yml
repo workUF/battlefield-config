@@ -4,7 +4,7 @@ server:
     context-path: /
 spring:
   application:
-    name: service-centre
+    name: service-main
 #DB Configuration:
   datasource:
     password: root
