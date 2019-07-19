@@ -47,8 +47,4 @@ mybatis:
 #pojo别名扫描包
   type-aliases-package: com.battlefield.framework.vo
 logging:
-  file: \risk.log
-  level:
-    com:
-      battlefield: debug
-    root: INFO
+  config: classpath:/resources/log4j.properties
